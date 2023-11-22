@@ -1,0 +1,438 @@
+body{
+  padding: 5px;
+font-size: larger;
+}
+header{
+    background-color: rgba(0, 98, 102,1.0);
+    color: white;
+    padding: 10px;
+    }
+head{
+  background-color: white;
+  color: black;
+}
+p{
+    line-height: 30px;
+    font-size: larger;
+}
+
+.reveal{
+    transform: translatey(20px);
+    opacity: 0;
+    transition: all 3s ease;
+}
+.reveal.active{
+  transform: translateY(20px);
+  opacity: 1;
+}
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  span{
+    display: inline-block;
+    opacity: 0;
+    filter: blur(10px);
+  }
+  span{
+    animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  h2{
+    color: darkslateblue;
+  }
+  h3{
+    color: rgb(239, 11, 11);
+  }
+  .box1{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+  }
+  .box2{
+    width: 500px;
+    height: 550px;
+    background-color: brown;
+  }
+  .box{
+    padding: 5px;
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,160px);
+  }
+  .next{
+    border: 2px solid black;
+    
+    border-radius: 20px;
+    background-color: rgba(0, 98, 102,1.0 );
+    height: 55px; 
+    width: 340px;
+  }
+  .button{
+    transition: all 0.5s;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0,5s;
+  }
+  .button span:after{
+    content: \00bb;
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: 20px;
+   transition: 0.5s;
+  }
+  .button:hover span{
+    padding-right: 20px;
+  }
+  .button:hover span:after{
+    opacity: 1;
+    right: 10;
+   
+  }
+.next a{
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  
+}
+.next a:hover{
+  text-decoration: none;
+  color: red;
+}
+.next span{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.next span:hover{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.next:hover{
+  position: relative;
+  transition: all 3s ease-in-out;
+  background-color: black;
+  color: red;
+  border: 3px solid red;
+  width: 340px;
+}
+a{
+  color: black;
+}
+header{
+  background-color:rgba(0, 98, 102,1.0);
+  color: white;
+}
+
+.sourcehead{
+  background-image: url(https://ik.imagekit.io/yiau5kzwa/techblog/Runway%202023-11-20T16_59_05.216Z%20Erase%20and%20Replace%20none.png?updatedAt=1700658542282);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  filter: blur(-100%);
+}
+@media only screen and (min-width: 1000px) {
+  .sourcehead {
+  height: 600px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .sourcehead {
+  height: 800px;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .sourcehead {
+  height: 1000px;
+  }
+}
+.sourcehead1{
+  background-color: black;
+  width: 70%;
+  border-radius: 30px;
+  margin-top: -70px;
+  }
+  
+  .sourcehead1 a{
+  color: red;
+  text-decoration: none;
+}
+.sourcehead1 a:hover{
+  color: white;
+  font-size: larger;
+  text-decoration: underline;
+  
+}
+.sourcehead1 h2{
+  color: white;
+  margin-left: 10px;
+}
+.sourcecon{
+  background-color: #e7e6df;
+}
+.forums p{
+font-weight: bolder;
+}
+.sourcecon a{
+text-decoration: none;
+}
+.sourcecon a:hover{
+  color: black;
+  font-weight: bolder;
+font-size: 20px;
+  text-decoration: none;
+  }
+  .sourcecon p{
+    font-weight: bolder;
+    }
+.sourceboot{
+  background-color: #e7e6df
+}
+.sourceboot P{
+  font-weight: bolder;
+}
+.sourceboot a{
+  text-decoration: none;
+  }
+  .sourceboot a:hover{
+    color: black;
+    font-weight: bolder;
+  font-size: 20px;
+    text-decoration: none;
+    }
+
+    .blockimage{
+      background-image: url(https://ik.imagekit.io/yiau5kzwa/techblog/Runway%202023-11-20T17_11_31.679Z%20Erase%20and%20Replace%20no.png?updatedAt=1700658546374);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      filter: blur(100%);
+    }
+    @media only screen and (min-width: 1000px) {
+      .blockimage {
+      height: 600px;
+      }
+    }
+    @media only screen and (min-width: 1600px) {
+      .blockimage {
+      height: 800px;
+      }
+    }
+    @media only screen and (min-width: 2000px) {
+      .blockimage {
+      height: 1000px;
+      }
+    }
+    @media only screen and (min-width: 2000px) {
+      .blockimage {
+      height: 1000px;
+      }
+    }
+    .blockimage a{
+      color: white;
+      font-size: 50px;
+     
+    }
+    .blockimage{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .netimage{
+      background-image: url(https://ik.imagekit.io/yiau5kzwa/techblog/Runway%202023-11-20T17_14_43.029Z%20Erase%20and%20Replace%20no.png?updatedAt=1700658533477);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      filter: blur(100%);
+    }
+    @media only screen and (min-width: 1000px) {
+      .netimage {
+      height: 600px;
+      }
+    }
+    @media only screen and (min-width: 1600px) {
+      .netimage {
+      height: 800px;
+      }
+    }
+    @media only screen and (min-width: 2000px) {
+      .netimage {
+      height: 1000px;
+      }
+    }
+    @media only screen and (min-width: 2000px) {
+      .netimage {
+      height: 1000px;
+      }
+    }
+    .netimage{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .netimage a{
+      color: white;
+      font-size: 30px;
+     
+    }
+    .top{
+      width: 35px;
+      height: 35px;
+      background-color: gray;
+      border: 2px solid black;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     position: fixed;
+     z-index: 999;
+     right: 1%;
+     bottom: 0%;
+    }
+    .top a{
+      text-decoration: none;
+     }
+    .top{
+      animation:bounce 1.5s linear infinite;
+    }
+    @keyframes bounce {
+      0%{
+        transform: rotate(0deg) translateY(10px);
+      }
+      25%{
+        transform:rotate(0deg) translateY(-10px);
+      }
+      50%{
+        transform:rotate(0deg) translateY(10px);
+      }
+      75%{
+        transform:rotate(0deg) translateY(-10px);
+      }
+      100%{
+        transform:rotate(0deg) translateY(10px);
+      }
+    }
+    .blogimg{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .blogimg a{
+      color: black;
+      font-size: 50px;
+      font-weight: bolder;
+    }
+    .container-fluid{
+      background-color: black;
+      width: 100%;
+      height: auto;
+      color: white;
+      display: grid;
+      grid-template-columns: repeat(3,auto);
+    }
+    .col1 a{
+      color: white;
+      font-size: auto;
+      line-height: 40px;
+      padding: 2px;
+}
+    .col2 a{
+      color: white;
+      font-size: auto;
+      line-height: 40px;
+      padding: 10px;
+    }
+    .col3 a{
+      color: white;
+      font-size: auto;
+      line-height: 40px;
+      padding: 10px;
+    }
+    @media only screen and (max-width: 700px) {
+      .container-fluid{
+        background-color: white;
+        width: 100%;
+        height: auto;
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+      }
+    }
+  
+    @media only screen and (max-width: 700px)
+     {
+      .container-fluid .col1 {
+      border: 3px white solid;
+      border-radius: 20px;
+      background-color: black;
+      width: auto;
+      color: white;
+      font-size: 20px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      }
+    }
+    @media only screen and (max-width: 700px) {
+      .container-fluid .col2 {
+      border: 3px white solid;
+      border-radius: 20px;
+      background-color: black;
+      width: auto;
+      color: white;
+      font-size: 20px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      }
+    }
+    @media only screen and (max-width: 700px) {
+      .container-fluid .col3 {
+        border: 3px white solid;
+        border-radius: 20px;
+        background-color: black;
+        width: auto;
+        color: white;
+        font-size: 20px;
+        display: grid;
+      justify-content: center;
+      align-items: center;
+        }
+      }
+      ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #121111;
+      }
+      
+      ul.topnav li {float: left;}
+      
+      ul.topnav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      ul.topnav li a:hover:not(.active) {background-color: #111;}
+      
+      ul.topnav li.right {float: right;}
+      
+      @media screen and (max-width: 600px) {
+        ul.topnav li.right, 
+        ul.topnav li {float: none;}
+      }
